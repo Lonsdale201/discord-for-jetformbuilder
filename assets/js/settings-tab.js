@@ -26,7 +26,7 @@
         labels: {
           webhook: __("Discord webhook URL", "discord-for-jetformbuilder"),
           description: __(
-            "Paste the Discord webhook URL that JetFormBuilder should use for notifications.",
+            "Paste the Discord webhook URL that JetFormBuilder should use for notifications. (This is required for the Discord Notification Post submit action.)",
             "discord-for-jetformbuilder"
           ),
           failureWebhook: __(
