@@ -164,9 +164,6 @@
               })
             )
         ),
-        HelpComponent
-          ? createElement(HelpComponent, { children: messageHelp })
-          : null,
         includeReferControl,
         includeFormControl
       );
@@ -188,6 +185,7 @@
 
   JetFBActions.addAction("discord_notification", DiscordNotification, {
     category: "communication",
+    docHref: "https://github.com/Lonsdale201/discord-for-jetformbuilder",
   });
 
   if (wp?.data?.dispatch) {
@@ -198,6 +196,7 @@
           (actionData && actionData.action_name) ||
           __("Discord notification", "discord-for-jetformbuilder"),
         category: "communication",
+        docHref: "https://github.com/Lonsdale201/discord-for-jetformbuilder",
       });
     } catch (error) {
       // noop
