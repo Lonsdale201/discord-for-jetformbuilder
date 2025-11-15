@@ -1,6 +1,6 @@
 # Discord for JetFormBuilder
 
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
 ### Installation
 Install and activate the plugin like any other WordPress plugin (upload it to `wp-content/plugins`, then enable it from the Plugins screen).
